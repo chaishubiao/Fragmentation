@@ -13,6 +13,7 @@ android {
 }
 
 dependencies {
-    compileOnly "com.android.support:appcompat-v7:$rootProject.v4Version"
-    compileOnly project(':fragmentation')
+    implementation "com.android.support:appcompat-v7:$rootProject.v4Version"
+    implementation project(':fragmentation')
+    implementation project(':fragmentation_core')
 }
